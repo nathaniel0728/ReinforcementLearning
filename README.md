@@ -10,8 +10,8 @@ Clone into current repository:
 Install virtualenv (if not yet available):
 `pip install virtualenv`
 
-Create virtual environment:
-`virtualenv venv`
+Create virtual environment with python2.7 (command on linux):
+`virtualenv -p /usr/bin/python2.7 venv`
 
 Activate venv:
 `source venv/bin/activate`
@@ -19,9 +19,11 @@ Activate venv:
 Install required packages:
 `pip install -r requirements.txt`
 
-Use python2 to run programs. 
+Note: If tensorflow does not install, refer to tensorflow's official website for further instructions.
+
+Use python2.7 to run programs. 
 
 To deactivate virtualenv, run command:
 `deactivate`
 
-Note: Maze does not use OpenAI due to complications
+Note: Maze does not use OpenAI due to complications as of now.
