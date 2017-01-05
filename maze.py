@@ -109,7 +109,7 @@ def learn(size, holes, maze):
     lr = 0.85
     y = 0.99
     e = 0.5
-    num_episodes = 50000
+    num_episodes = 5000
     trials = 199
 
     for i in range(num_episodes):
@@ -156,7 +156,7 @@ def nn_learn(size, holes, maze):
     lr = 0.85
     y = 0.99
     e = 0.5
-    num_episodes = 500
+    num_episodes = 1000
     trials = 99
     
     with tf.Session() as sess:
