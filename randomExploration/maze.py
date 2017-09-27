@@ -2,7 +2,9 @@ import gym
 import numpy as np
 import random
 import math
+import sys
 
+sys.path.insert(0, '../Environment')
 from MazeEnvironment import *
 
 import numpy as np
